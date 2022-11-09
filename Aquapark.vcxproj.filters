@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\BasedLists">
+      <UniqueIdentifier>{cb60e5b6-3ecd-4c80-9956-21c62037e7ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factory">
+      <UniqueIdentifier>{06c61b8f-6a20-498f-a62e-06ed5783fe59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TemplatesBasedLists">
+      <UniqueIdentifier>{89064141-6e86-4c67-8fed-f5599a20d401}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ALists">
+      <UniqueIdentifier>{d11102cf-9549-4fb9-945d-8e1c7d28cf4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BasedLists">
+      <UniqueIdentifier>{9e1f4ac9-428b-4dbf-8ad9-055731211fcf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PriceList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HillsFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolsFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntertainmentList.cpp">
+      <Filter>Source Files\BasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="HillsList.cpp">
+      <Filter>Source Files\BasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="PoolsList.cpp">
+      <Filter>Source Files\BasedLists</Filter>
+    </ClCompile>
+    <ClCompile Include="Entertainment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hills.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Price.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceWeekday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriceWorkday.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PriceFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HillsFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Reading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolsFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Name.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntertainmentList.h">
+      <Filter>Header Files\BasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolsTList.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="HillsTList.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="AList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="AHillsList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="APoolsList.h">
+      <Filter>Header Files\ALists</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="HillsList.h">
+      <Filter>Header Files\BasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="PoolsList.h">
+      <Filter>Header Files\BasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpersT.h">
+      <Filter>Header Files\TemplatesBasedLists</Filter>
+    </ClInclude>
+    <ClInclude Include="Pools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Price.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entertainment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceWeekday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriceWorkday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hills.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Price.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="WARNING.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Hills.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Vacancy.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Pools.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
